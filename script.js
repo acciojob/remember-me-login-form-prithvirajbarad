@@ -1,10 +1,6 @@
-//your JS code here. If required.
-let formEle = document.querySelector("form");
-
-formEle.addEventListener("submit", submitForm);
-
-function submitForm(e){
-	e.preventDefault();
-	let checkEle = document.getElementById("checkbox").checked;
-	alert( `${checkEle}`);
+function getFormvalue() {
+    //Write your code here
+	let first = document.getElementById("first").value;
+	let last = document.getElementById("last").value;
+	alert(first+" "+last);
 }
